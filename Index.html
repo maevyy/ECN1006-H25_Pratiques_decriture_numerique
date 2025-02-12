@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Évolution de l'écriture à l'ère numérique</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: black;
+            color: #fff;
+            perspective: 1000px;
+            transition: background 0s ease, color 0.5s ease;
+        }
+
+        canvas {
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            timeline-scope:inherit;
+        }
+        canvas {
+            position:fixed;
+            bottom: 0;
+            right:100%;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            timeline-scope:inherit;
+        }
+
+        header {
+            text-align:center;
+            margin-bottom: 30px;
+            text-decoration-color: #008866;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #00ffcc;
+            text-shadow: 2px 2px 5px rgba(0, 255, 204, 0.7);
+            transform: rotateY(3deg);
+        }
+
+        section {
+            margin: 10px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.724);
+            border-left: 5px solid #00ffcc;
+            box-shadow: 4px 4px 10px rgba(0, 255, 204, 0.5);
+            transform: rotateY(3deg);
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .theme-button {
+            background-color: #00ffcc;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+            box-shadow: 4px 4px 10px rgba(0, 255, 204, 0.7);
+        }
+
+        .theme-button:hover {
+            background-color: #008866;
+            transform: scale(1.1);
+            box-shadow: 6px 6px 15px rgba(0, 255, 204, 1);
+        }
+
+        .hidden {
+            display: none;
+        }
+        img {
+            display: block;
+            max-width: 40%;
+            height:auto;
+            margin: 20px auto;
+            border: 2px solid #ddd;
+            transform: rotateY(5deg);
+        }
+
+        .source {
+            font-size: 0.9em;
+            color: #896de5;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+    <header>
+        <h1>L'Évolution de l'écriture à l'ère numérique</h1>
+    </header>
+    <br>
+    <div class="image-container">
+        <img src="https://i.pinimg.com/736x/e7/66/1a/e7661a0a1cabc3d3b4d3fa6cfef34e4b.jpg" alt="Écriture numérique : naissance d'un moyen de communication">
+    </div>
+    <p class="source">Crédit : <a href="https://www.pinterest.com">pinterest</a></p>
+
+
+    <section>
+        <h2>Introduction</h2>
+    <p>
+        L'écriture a toujours été un pilier fondamental de la communication humaine.
+        Avec l'avènement des technologies numériques, nos pratiques d'écriture et de lecture ont été transformées de manière radicale.
+        Cette réflexion explore les impacts culturels et sociétaux de cette transition numérique,
+        en mettant en lumière les opportunités et les défis qu'elle présente.
+    </p>
+    </section>
+
+    <section>
+        <h2>Evolution des pratiques d'écriture</h2>
+        <p>
+            L'émergence des outils numériques a permis une personnalisation et une collaboration accrues dans l'écriture.
+            Par exemple, les plateformes comme Google Docs permettent une co-écriture en temps réel, rendant les processus collaboratifs plus fluides.
+            Cependant, cette évolution soulève des questions sur la pérennité et la propriété des contenus numériques.
+        </p>
+    </section>
+
+    <section>
+        <h2>Défi de l'attention et surcharge cognitive</h2>
+        <p>Les supports numériques, bien que pratiques, favorisent une lecture fragmentée et souvent distraite. Une étude menée par Carr (2010) souligne que l'ère numérique encourage une consommation rapide de l'information, parfois au détriment de la profondeur et de l'analyse critique.</p>
+    </section>
+
+    <section>
+        <h2>Accessibilité et démocratisation de l'écriture</h2>
+        <p>
+            Les technologies numériques ont également ouvert des portes pour les écrivains amateurs et professionnels.
+            Elles permettent une diffusion massive et instantanée des idées,
+            bien qu'elles soulèvent des questions sur la qualité et la véracité des contenus.
+        </p>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <p>
+            L'écriture numérique redéfinit non seulement comment nous communiquons, mais aussi comment nous interagissons avec le savoir.
+            Elle offre des opportunités uniques, tout en exigeant une réflexion éthique et critique pour minimiser ses impacts négatifs. 
+            Dans cette optique, des recherches futures pourraient explorer des moyens de préserver la qualité et l'intégrité des contenus numériques.
+        </p>
+        </section>
+            <section>
+            <h2>Sources</h2>
+            <ul>
+                <li><a href="https://motspluriels.arts.uwa.edu.au/MP1801ch.html">Clarisse Herrenschmidt. “L’Internet Entre Écriture, Parole et Monnaie Ou l’étrange Cadeau Des Anciens.” Mots Pluriels No 18. août (2001).</a></li>
+                <li><a href="https://www.nicholascarr.com/?page_id=16"><em>Carr, N. (2010). The Shallows: What the Internet Is Doing to Our Brains. W.W. Norton & Company.</em></li></a>
+                <li><a href="https://www.cbc.ca/radio/sunday/year-end-pot-pourri-the-fate-of-reading-christmas-memory-christmas-music-of-black-america-1.3371566/reading-from-a-screen-harms-our-ability-to-concentrate-1.3371749?x-eu-country=false">Numerrique</a></li>
+                <li><a href="https://lactualite.com/societe/jbn_ecriturenumerique/">Jean-Benoît Nadeau"L’écriture numérique est là pour de bon"</a></li>
+            </ul>
+             </section>
+    
+
+    <div class="button-container">
+        <button class="theme-button" id="startButton" onclick="showColorPicker()">Click here</button>
+        <div id="colorPicker" class="hidden">
+            <input type="text" id="colorInput" placeholder="Vous devez l'écrire en anglais">
+            <button class="theme-button" onclick="changeTheme()">Choose a color</button>
+        </div>
+    </div>
+
+    <script>
+        function showColorPicker() {
+            document.getElementById('startButton').classList.add('hidden');
+            document.getElementById('colorPicker').classList.remove('hidden');
+        }
+
+        function changeTheme() {
+            let color = document.getElementById('colorInput').value;
+            document.body.style.background = color;
+            document.body.style.color = color === 'black' ? 'white' : 'black';
+        }
+
+        const canvas = document.getElementById('bgCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        let particlesArray = [];
+        class Particle {
+            constructor() {
+                this.x = Math.random() 
+                this.y = Math.random() 
+                this.size = Math.random()
+                this.speedX = Math.random()
+                this.speedY = Math.random()
+            }
+            update() 
+            { this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.x > canvas.width) this.x = 0;
+                if (this.x < 0) this.x = canvas.width;
+                if (this.y > canvas.height) this.y = 0;
+                if (this.y < 0) this.y = canvas.height;
+            }
+            draw() {
+                ctx.fillStyle = '#00ffcc',
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+        function initParticles() {
+            for (let i = 0; i < 10000; i++) {
+                particlesArray.push(new Particle());
+            }
+        }
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let particle of particlesArray) {
+                particle.update();
+                particle.draw();
+            }
+            requestAnimationFrame(animateParticles);
+        }
+        initParticles();
+        animateParticles();
+    </script>
+</body>
+</html>
